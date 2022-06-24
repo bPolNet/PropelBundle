@@ -44,7 +44,7 @@ class Configuration extends PropelConfiguration
         ;
     }
 
-    protected function addRuntimeSection(ArrayNodeDefinition $node)
+    protected function addRuntimeSection(ArrayNodeDefinition $node): void
     {
         $node
             ->children()
