@@ -83,7 +83,7 @@ class PropelBundle extends Bundle
             }
 
             $serviceContainer->setAdapterClass($name, $config['adapter']);
-            $serviceContainer->setConnectionManager($name, $manager);
+            $serviceContainer->setConnectionManager($manager, $manager);
         }
     }
 
